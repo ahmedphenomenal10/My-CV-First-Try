@@ -1,0 +1,131 @@
+.container{
+    width: 80%;
+    margin: auto;
+}
+h3,h2{text-transform: uppercase;}
+.clear{clear: both;}
+/*Start draw lines*/
+/*End 
+/*Start top of cv*/
+.top{height: 350px;}
+.top .container img{
+    float: left;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+.top .container .info{
+    float: right;
+    width: 50%;
+}
+.top .container .info p{
+    font-size: 1.6em;
+    line-height: 40px;
+    font-style: italic;
+}
+.top .container .info p span{
+    margin-left: 30px;
+    font-style: normal;
+}
+.top .container .info .graduate{font-size: 2em;}
+.top .container .info p span a{cursor: pointer;}
+.top .container .info p span a:hover{color: dimgray;}
+/*End top of cv*/
+
+/*Start some certifications*/
+.certification{margin-top: 100px;}
+.certification .container .info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+}
+.certification .container .info div img{
+    width: 13%;
+    height: 60px;
+    float: left;
+    margin-right: 5px;
+}
+.certification .container .info div p{
+    font-size: 1.5em;
+    line-height: 35px;
+    width: 50%;
+}
+.certification .container .info > div{
+    float: left;
+    width: 50%;
+    min-height: 100px;
+}
+.certification .container .other{margin-top: 40px;}
+.certification .container .other h3{font-size: 1.6em;}
+.certification .container .other p{font-size: 1.3em;line-height: 35px;}
+.certification .container .other img{
+    width: 13%;
+    height: 80px;
+    float: left;
+    margin-right: 5px;
+}
+/*End some certifications*/
+
+/*Start my strongest*/
+.progress{overflow: hidden;}
+.progress .container{width: 80%;}
+.progress .container h2{margin-left: 100px;}
+.progress .container div{
+    background-color: red;
+    height: 20px;
+    width: 75%;
+    float: right;
+}
+.progress .container div span{
+    background-color: blue;
+    height:20px ;
+    display: block;
+    color: white;
+    text-align: center;
+    color: white;
+}
+/*End my strongest*/
+
+/*Start add photos*/
+.photos .container h2{color: blueviolet;text-align: center;}
+.photos .img{overflow: hidden;}
+.photos .img > div{
+    float: left;
+    width: calc(100%/2);
+    margin-bottom: 20px;
+}
+.photos .img > div img{
+    margin: 10px;
+    padding: 3px;
+    width: 92%;
+    height: 500px;
+}
+/*End add photos*/
+
+/*Start some optional info*/
+.optional .container h2{color: darkred;text-align: center;}
+.optional .container .img2{width: 50%;float: left;margin-top: 15px;}
+.optional .container .img2 img{height: 200px;width: 70%;}
+.optional .container .description{width: 50%;float: right;margin-top: 15px;}
+.optional .container .description p{font-size: 1.8em;line-height: 30px;}
+.optional .container img{width: 80%;margin: auto;height: 300px;}
+/*End some optional info*/
+
+/*Start contact me*/
+.contact{background-color: gray;}
+.contact .container p{
+    font-size: 1.6em;
+    line-height: 40px;
+    font-style: italic;
+}
+.contact .container p span{   
+    margin-left: 30px;
+    font-style: normal;
+}
+.contact .container p span a{cursor: pointer;}
+.contact .container p span a:hover{color: crimson;}
+/*End contact me*/
